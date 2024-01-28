@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EE059EA"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Sub"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:onClick="inverse"
+        android:text="@string/Inverse"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColorLink="#E31D1D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <Button
+        android:id="@+id/Det"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:onClick="det"
+        android:text="@string/matdet"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <Button
+        android:id="@+id/Add"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:onClick="opening"
+        android:text="@string/SecondActivity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        app:toggleCheckedStateOnClick="false" />
+
+    <Button
+        android:id="@+id/Mul"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="413dp"
+        android:layout_height="69dp"
+        android:onClick="multiplication"
+        android:text="@string/matMul"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589"
+        app:srcCompat="@drawable/mathsimage3_removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
